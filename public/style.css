@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #word-container {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  #keyboard-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #keyboard-container button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  #hangman-container {
+    margin-top: 40px; /* Aumentado para mayor separación */
+    font-size: 24px; /* Aumentado para mejor proporción */
+    text-align: center; /* Centra el ahorcado horizontalmente */
+    color: #333; /* Color gris oscuro */
+    line-height: normal; /* Cambiar a "normal" o "1" */
+    white-space: normal; /* Cambiar a "normal" o "nowrap" */
+  }
+  
+  /* Mantener el código original para dibujar el ahorcado con caracteres ASCII */
+  
+  #messages {
+    margin-top: 20px;
+  }
+
+  #hangman-image {
+    width: 20%;
+    height: auto;
+}
+  
